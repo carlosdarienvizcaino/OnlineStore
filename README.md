@@ -34,4 +34,13 @@ node server/customers/app.js
 
 node server/orders/shell
 
+___
+**Resources**
+
+[**MongoDB mLab as a Service**](https://mlab.com/home)
+
+[**RabbitMQ as a Service**](https://www.cloudamqp.com/)
+
+[**RabbitMQ JavaScript Client**](https://www.rabbitmq.com/tutorials/tutorial-one-javascript.html)
+
 
