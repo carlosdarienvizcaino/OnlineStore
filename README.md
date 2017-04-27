@@ -3,17 +3,17 @@
 ___
 ## Configuration:
 
-Install dependencies:
+#### Install dependencies:
 
 **npm install**
 
-In *example-app-config.json*
+#### Modify *example-app-config.json*
 
-  **Write *customer* mongodb url.**
+  Write *customer* mongodb url.
   
-  **Write *orders* mongodb url.**
+  Write *orders* mongodb url.
   
-  **Write *RabbitMQ* amqp url.**
+  Write *RabbitMQ* amqp url.
   
   Finally, rename example-app-config.json to **app-config.json**
   
@@ -33,6 +33,16 @@ node server/customers/app.js
 **Orders Shell:**
 
 node server/orders/app.js
+
+___ 
+## Documentation
+
+[Microservices Design](../blob/master/documentation/MicroservicesDesign.pdf)
+
+[API](../blob/master/documentation/APIDocumentation.pdf)
+
+[System Events](../blob/master/documentation/EventDocs.pdf)
+
 
 ___
 ## Resources
