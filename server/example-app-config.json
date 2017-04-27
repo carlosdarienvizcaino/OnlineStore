@@ -1,0 +1,27 @@
+{
+  "ports" : {
+    "gateway"   : 3002,
+    "orders"    : 3004,
+    "customers" : 3006
+  },
+
+  "mongo" : {
+       "customers": "mongo customer url goes here",
+       "orders": "mongo orders url goes here"
+  },
+
+  "rabbitmq": {
+
+    "connection": {
+      "url": "rabbit amqp url goes here"
+    },
+
+    "queues": {
+      "placeOrders": "PlaceOrders",
+      "creditReserved": "CreditReserved",
+      "creditLimitExceed": "CreditLimitExceed",
+      "createOrders": "CreateOrders",
+      "createCustomers": "CreateCustomers"
+    }
+  }
+}
