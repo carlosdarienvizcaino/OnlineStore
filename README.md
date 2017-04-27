@@ -37,6 +37,8 @@ node server/orders/app.js
 ___ 
 ## Documentation
 
+[Video Tutorial ](https://www.youtube.com/watch?v=ChjpkD0sbVk&feature=youtu.be)
+
 [Microservices Design](https://github.com/carlosdarienvizcaino/OnlineStore/blob/master/documentation/MicroserviceDesign.pdf)
 
 [API Docs](https://github.com/carlosdarienvizcaino/OnlineStore/blob/master/documentation/APIDocumentation.pdf)
@@ -46,6 +48,7 @@ ___
 
 ___
 ## Resources
+
 
 [**MongoDB mLab as a Service**](https://mlab.com/home)
 
