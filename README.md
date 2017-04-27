@@ -37,11 +37,11 @@ node server/orders/app.js
 ___ 
 ## Documentation
 
-[Microservices Design](../blob/master/documentation/MicroservicesDesign.pdf)
+[Microservices Design](https://github.com/carlosdarienvizcaino/OnlineStore/blob/master/documentation/MicroserviceDesign.pdf)
 
-[API](../blob/master/documentation/APIDocumentation.pdf)
+[API Docs](https://github.com/carlosdarienvizcaino/OnlineStore/blob/master/documentation/APIDocumentation.pdf)
 
-[System Events](../blob/master/documentation/EventDocs.pdf)
+[System Events](https://github.com/carlosdarienvizcaino/OnlineStore/blob/master/documentation/EventsDoc.pdf)
 
 
 ___
