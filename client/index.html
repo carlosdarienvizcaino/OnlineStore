@@ -1,0 +1,52 @@
+<html lang="en-us" ng-app="storeApp">
+<head>
+    <title>Online Store SPA</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+
+    <!-- load bootstrap and fontawesome via CDN -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <style>
+        html, body, input, select, textarea
+        {
+            font-size: 1.10em !important;
+        }
+    </style>
+
+    <!-- load angular via CDN -->
+    <script src="https://code.angularjs.org/1.6.1/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.1/angular-route.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.1/angular-resource.min.js"></script>
+    <script src="app.js"></script>
+    <script src="routes.js"></script>
+    <script src="services/customers.service.js"></script>
+    <script src="services/resources.service.js"></script>
+    <script src="controllers/home.controller.js"></script>
+    <script src="controllers/store.controller.js"></script>
+    <script src="controllers/account.controller.js"></script>
+
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Online Store</a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#/store"><i class="fa fa-home"></i> Store</a></li>
+                <li><a href="#/account"><i class="fa fa-home"></i> Account</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="ng-view"></div>
+</div>
+
+</body>
+</html>

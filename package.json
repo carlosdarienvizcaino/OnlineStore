@@ -1,0 +1,25 @@
+{
+  "name": "Customer-AndOrders",
+  "version": "1.0.0",
+  "description": "Microservices using an event driven architecture",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/gateway/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosdarienvizcaino/CUSTOMERS-AND-ORDERS.git"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "async": "^2.0.0-rc.6",
+    "axios": "^0.12.0",
+    "body-parser": "~1.4.2",
+    "express": "^4.13.4",
+    "http-server": "^0.9.0",
+    "mongoose": "^4.9.6",
+    "uuid": "^2.0.2"
+  },
+  "homepage": "https://github.com/carlosdarienvizcaino/CUSTOMERS-AND-ORDERS/blob/master/README.txt"
+}
