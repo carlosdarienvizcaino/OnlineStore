@@ -1,7 +1,7 @@
 
 
 ___
-Configuration:
+## Configuration:
 
 Install dependencies:
 
@@ -18,7 +18,7 @@ In *example-app-config.json*
   Finally, rename example-app-config.json to **app-config.json**
   
 ___
-**Run project**
+## Run project
 
 You need 3 command line shells. One for Gateway, one for Customers, and one for Orders.
 
@@ -32,10 +32,10 @@ node server/customers/app.js
 
 **Orders Shell:**
 
-node server/orders/shell
+node server/orders/app.js
 
 ___
-**Resources**
+## Resources
 
 [**MongoDB mLab as a Service**](https://mlab.com/home)
 
